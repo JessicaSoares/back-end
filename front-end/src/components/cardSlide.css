@@ -1,0 +1,68 @@
+
+.card {
+  height: 8rem;
+  width: 16rem;
+  background-color: white;
+  border: none;
+  border-radius: 0.4rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.4s ease-in-out;
+}
+ 
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .card {
+    height: 8rem;
+    width: 13rem;
+  }
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px 2px 16px;
+}
+
+.cardimg {
+  color: #0067B3;
+  font-family: 'Yanone Kaffeesatz';
+  align-items: center;
+  display: flex;
+  margin-top: 3px;
+  align-items: center;
+}
+
+.imagem {
+  max-width: 18%;
+  height: auto;
+  padding: 4px;
+  margin: 5px 20px 5px 16px;
+  align-items: center;
+}
+
+.titulo {
+  color: #100582;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.numero {
+  color: #cc7606;
+  font-size: 1.1rem;
+  text-align: center;
+  padding-top: 1px;
+}
+
+.ano {
+  padding-top: 10px;
+  font-size: 1rem;
+  color: #100582;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+.boxlegend {
+  border: 1px solid rgba(94, 134, 96, 0.308);
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Roboto';
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.424);
+  align-items: center;
+}
+.maisinfos {
+  width: 40%;
+}
+.divbox {
+  justify-content: center;
+}
+.container {
+  padding-bottom: 20px;
+}
+
+
+[class^="col"] {
+  
+}
+
+
+
+
+
+
